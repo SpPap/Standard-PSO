@@ -65,6 +65,11 @@ As a stopping criterion, a total of 200 iterations was chosen however, the algor
 <img src="https://github.com/user-attachments/assets/d617bcd4-eb97-4ca8-9cb1-8793930d51e9" width="350"/>
 </p>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a5a03630-723b-4bc7-9040-3387c35af667" width="350"/>
+</p>
+
+
 ### References
 [1] J. Kennedy and R. Eberhart, “Particle swarm optimization,” in Proceedings of ICNN’95 - International Conference on Neural Networks, Perth, WA, Australia: IEEE, 1995, pp. 1942–1948. doi: 10.1109/ICNN.1995.488968. <br>
 [2] A. Kapnopoulos and A. Alexandridis, “A cooperative particle swarm optimization approach for tuning an MPC-based quadrotor trajectory tracking scheme,” Aerospace Science and Technology, vol. 127, p. 107725, Aug. 2022, doi: 10.1016/j.ast.2022.107725.<br>
