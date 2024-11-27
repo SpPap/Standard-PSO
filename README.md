@@ -1,7 +1,9 @@
 # Standard-PSO
 
 ## Intro
+<p align="justify ">
 This repository contains a standard implementation of the Particle Swarm Optimization (PSO) algorithm. To evaluate the effectiveness of this nonlinear optimization technique, the 2D version of the Michalewicz function has been utilized. Additionally, the repository features a 3D visualization of the algorithm, providing a clearer demonstration of how PSO operates. All code and simulations have been developed in the MATLAB environment.
+</p>
 
 ## Particle Swarm Optimization (PSO) Algorithm 
 <p align="justify ">
