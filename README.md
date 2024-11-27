@@ -32,17 +32,17 @@ The velocity is calculated as:
 </p>
 
 $$ 
-v_{ij}(t+1) = wv_{ij}(t) + c_{1} r_{1j} (y_{ij} - x_{ij}(t)) + c_{2} r_{2j} (\hat{y_{ij}} - x_{ij}(t)) 
+v_{ij}(t+1) = wv_{ij}(t) + c_{1} r_{1j}(t) (y_{ij}(t) - x_{ij}(t)) + c_{2} r_{2j}(t) (\hat{y_{ij}}(t) - x_{ij}(t)) 
 $$ 
 
 where $v_{ij}(t)$, $i=1,2,..,s$, $j=1,2,..,d$, denotes the velocity of the $i^{th}$ particle in the $j^{th}$ dimension, $y_{ij}, \hat{y_{ij}}$ are the personal and global best respectively, $r_{1j}, r_{2j}$ are random values picked from a uniform distribution that lie in the interval [0, 1] and the rest $w, c_{1}, c_{2}$ are PSO's tuning parameters that will be explained in the next subsection.
 
 ### Tuning Parameters
-- Inertia coefficient  ($w$)<br />
+- <i>Inertia coefficient</i>  ($w$)<br />
     This parameter represents the inertia weight of the particle, which indicates the particle's tendency to maintain its previous speed. This term is often referred to as controlling the particle's momentum
-- Nostalgia constant  ($c_{1}$)<br />
+- <i>Nostalgia constant</i>   ($c_{1}$)<br />
     The nostalgia constant, or cognitive term, represents each particle's personal experience and acts as an amplification of its personal best, making it tend to keep its best position so far.
-- Envy constant ($c_{2}$)<br />
+- <i>Envy constant</i> ($c_{2}$)<br />
     The envy constant, or social term, determines the influence of the entire swarm. This means each particle tries to mimic the neighboring particles to move as a whole based on the global best.
 
 ## Benchmark Test Case - Michalewicz Function
