@@ -60,7 +60,7 @@ where $m$ denotes the steepness and the input space is usually limited to $[0, \
 <p align="justify ">
 For demonstration purposes, the 2D version is used in this repository where the true global minima (for a $d$ = 2 case) is located in $\textbf{x}^* =  [x_1 \ \  x_2]^T =  [2.20 \ \  1.57]^T$ and the function's value is  $f(\textbf{x}^*) \simeq  -1.8013$
 
-As a stopping criterion, a total of 200 iterations was chosen however, the algorithm converges in the first 30.
+As a stopping criterion, a total of 100 iterations was chosen however, the algorithm converges in the first 30.
 </p>
 
 <p align="center">
